@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #f6f4ef;
+  color: #111;
+}
+.masthead {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  border-bottom: 2px solid #111;
+}
+.masthead.small {
+  font-size: 26px;
+}
+.tagline {
+  font-size: 12px;
+  color: #555;
+}
+.home, .archive {
+  padding: 30px;
+  text-align: center;
+}
+.edition-link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 15px;
+  border: 1px solid #111;
+  text-decoration: none;
+  color: #111;
+}
+.edition {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+.lead h1 {
+  font-size: 28px;
+}
+.sub {
+  font-size: 13px;
+  color: #555;
+}
+.text {
+  column-count: 2;
+  line-height: 1.6;
+}
+.side ul {
+  list-style: none;
+  padding: 0;
+}
+.side li {
+  margin-bottom: 10px;
+}
+.nav {
+  text-align: center;
+  padding: 10px;
+}
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+}
